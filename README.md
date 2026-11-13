@@ -13,4 +13,4 @@ You have 2 options:
 2. Repair it yourself in the code.
 
 You can change the obsidOS kernel code as you want!
-Don't have a function that you want to use? Add it to `boxshell`!
+Dont have a function that you want to use? Add it to `boxshell`!
