@@ -17,11 +17,11 @@ sad=' '+':('
 
 def login_screen():
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    config_file = os.path.join(base_dir, "disk", "_sys", "boxshell.obsidOS")
+    config_file = os.path.join(base_dir, "disk", "_sys", "boxshell.pseudos")
     
     config = {
-        "username": "kernel"
-        "password:" "kernel"
+        "username": "kernel",
+        "password": "kernel"
     }
     
     if os.path.exists(config_file):
@@ -106,7 +106,7 @@ log_screen_logo=1
 def reload_packages():
     base_dir = os.path.dirname(os.path.abspath(__file__))
     pkgs_dir = os.path.join(base_dir, "disk", "_pkgs")
-    pkg_file = os.path.join(base_dir, "disk", "_sys", "packages.obsidOS")
+    pkg_file = os.path.join(base_dir, "disk", "_sys", "packages.pseudos")
     
     active_packages = {}
     if os.path.exists(pkg_file):
@@ -146,7 +146,7 @@ def reload_packages():
     print("packages sync & reload complete!")
 
 def read_packageses():
-    with open('_sys/packages.obsidOS', 'r', encoding='utf-8') as file:
+    with open('_sys/packages.pseudos', 'r', encoding='utf-8') as file:
         print(file.read())
 
 def command_make():
@@ -154,7 +154,7 @@ def command_make():
 
 def login_screen():
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    config_file = os.path.join(base_dir, "disk", "_sys", "boxshell.obsidOS")
+    config_file = os.path.join(base_dir, "disk", "_sys", "boxshell.pseudos")
     
     target_user = "kernel"
     target_pass = "kernel"
@@ -225,7 +225,7 @@ else:
 login_screen()
 
 username = "kernel"
-config_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "disk", "_sys", "boxshell.obsidOS")
+config_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "disk", "_sys", "boxshell.pseudos")
 
 if os.path.exists(config_file):
     with open(config_file, "r") as f:
