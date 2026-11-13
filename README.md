@@ -1,11 +1,13 @@
-# Welcome to obsidOS!
+# Welcome to pseudos!
 
-## What is obsidOS?
+(bye obsidOS hello pseudos!)
+
+## What is pseudos?
 obsidOS is a pseudo-OS made in Python.
 It includes a virtual disk where you can store and put things into.
 
 ## What do I need to run it?
-If you want to know what you need to pre-install, check `obsidOS_need.txt`.
+If you want to know what you need to pre-install, check `psueods_need.txt`.
 
 ## What to do if I find a bug?
 You have 2 options:
