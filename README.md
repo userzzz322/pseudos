@@ -1,5 +1,7 @@
 # Welcome to pseudos!
 
+(known as obsidOS
+
 (bye obsidOS hello pseudos!)
 
 ## What is pseudos?
