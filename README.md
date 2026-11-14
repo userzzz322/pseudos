@@ -20,3 +20,5 @@ At the current state pseudos is in unfinished git repository state
 And it can take weeks or ecen month to fix
 If you want pseudos version that has logo and works fine you can install (0.25) from releases
 But still the main repository page to clone works fine like 0.25 but dont have logo and some features can be bugged because of changing from .obsidOS to .pseudos
+
+# GLHF!
